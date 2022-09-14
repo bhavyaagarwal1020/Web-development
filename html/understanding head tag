@@ -1,0 +1,23 @@
+<!-- document is html type -->
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- contest visible in highest compatibilty mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- viewport:user's visible area of web page. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Desciption" content="Handmade Accessories">
+    <meta name="keywords" content="Polaroid frames, Earings, Necklace">
+    
+    <title>First Web Page</title>
+</head>
+
+<body>
+    Hello Word.
+</body>
+</html>
+
+<--save by .html extension-->
