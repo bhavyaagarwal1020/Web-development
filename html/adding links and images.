@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ArtChic</h1>
+    <hr>
+
+    <!-- targent ="blank" is an attribute to open the link in new tab -->
+     <a href="https://www.instagram.com/art_.chic/" target="blank">Go to instagram handle</a>
+    <p>Store For Handmade Accesories</p>
+    <p>Woven with <strong>care</strong> and designed with <strong>love</strong> </p>
+    <a href="https://artchic.co.in/" target="blank">Go to website</a><br>
+
+  <img src="IMG_archiclogo.jpg" alt="Slow connection"  width="233",height=233>
+</body>
+</html>
