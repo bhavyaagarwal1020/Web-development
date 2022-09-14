@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+</head>
+
+<body>
+
+    <!-- heading -->
+    <h1>ArtChic</h1>
+     
+    <hr>
+
+    <!-- paragraph -->
+    <p>Store For Handmade Accesories</p>
+
+     <!-- strong tag for bolding text -->
+    <p>Woven with <strong>care</strong> and designed with <strong>love</strong> </p>
+</body>
+</html>
+
+<--save by .html extension-->
