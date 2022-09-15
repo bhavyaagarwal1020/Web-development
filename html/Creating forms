@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Forms View</h2>
+    <form action="backend.php">
+        <div>
+            <label for ="name">NAME </label>
+         <input type="text" name="myName" id="name">
+    </div>
+
+    <!-- using br is not a good practice, will use CSS for this. -->
+     <br>
+    <div>
+        <label for ="city">CITY </label>
+        <input type="text" name="my>City" id="city">
+    </div>
+      
+    <br>
+    <div>
+       Date: <input type="date" name="myDate">
+    </div>
+
+    <br>
+    <div>
+        <label for ="age"> AGE </label>
+     <input type="number" name="myAge" id="age">
+    </div>
+
+    <br>
+    <div>
+        <!-- CHECKBOX -->
+        <label for =" eligible"> Are you eligible?</label>
+    <input type="checkbox" name="eligible" id="eligible">
+    </div>
+
+    <br>
+    <div>
+        <!-- RADIO BUTTONS -->
+        <!-- Only one will be selected at a time because all have same name -->
+        Gender:Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Others<input type="radio" name="myGender">
+    </div>
+
+    <br>
+    <div>
+       Write about yourself: <br><textarea name="myText" cols="100" rows="10">
+
+        </textarea>
+    </div>
+
+    <br>
+    <div>
+        <label for="course">Select Your Course</label>
+        <select name="myCourse"id="course">
+            <option value="B.Tech">B.Tech</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Arch">B.Arch</option>
+        </select>
+    </div>
+    
+    <br>
+    <div>
+        <input type="submit" value=" Submit Now">
+        <input type="reset" value=" Reset Now">
+    </div>
+ 
+</form>
+</body>
+</html>
