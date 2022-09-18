@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+
+  
+<style>
+
+  /*element selector*/
+  p{
+    border: 2px solid black;
+  }
+
+    /* CSS using id (id selector)*/
+  #pqElement{
+    color:red;
+   }   
+    
+/* CSS using class (class selector)*/
+
+    .bg
+    {
+      color:blue;
+      background-color: cyan;
+    }
+   
+    /*Grouping CSS (group selector)*/
+    div,footer, span{
+     background-color: coral;
+    } 
+
+</style>
+
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <p>Learning css is fun.</p>
+    <p id="xyElement" class="bg">Hello world.</p>
+    <p id="pqElement" >Hello world.</p>
+
+    <div>
+        <p>Today is Sunday.</p>
+    </div>
+    <span>September</span>
+    <footer>This is footer.</footer>
+</body>
+</html>
