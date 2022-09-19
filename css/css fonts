@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts</title>
+    <style>
+        p{
+            color:blueviolet;
+            background-color: khaki;
+            font-style: italic;
+           font-family:Arial, Helvetica, sans-serif ;
+           font-size: 33px ;
+           /*px = 1/96 of an inch*/
+
+           line-height: 5.33em;   /*if there is some font above the current one, then how much space will be btween them*/
+           font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS FONTS</h2>
+    <p>Lets play with css fonts.</p>
+</body>
+</html>
