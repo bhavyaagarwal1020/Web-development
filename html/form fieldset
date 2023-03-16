@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Basic Information</legend>
+        <div>
+            Full Name  <input type="text">
+        </div>
+        <br>
+        <div>
+            BirthDate  <input type="date">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio"> Female <input type="radio"> Others<input type="radio">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+        </div>
+        <br>
+        <div>
+            Address  <input type="text">
+        </div>
+        <br>
+        <div>
+            Phone Number  <input type="text">
+        </div>
+        <br>
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>Extra Information</legend>
+        <div>
+            Interests  <input type="checkbox">Books   <input type="checkbox">Movies  <input type="checkbox">Videogames
+        </div>
+        <br>
+        <div>
+            Favourite colour <input type="color">
+        </div>
+        <br>
+        </fieldset>
+    </form>
+</body>
+</html>
