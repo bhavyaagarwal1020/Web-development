@@ -1,0 +1,33 @@
+<html>
+    <head>
+       <title>MY function</title>
+    </head>
+
+    <body>
+
+        <script>
+         
+         function sum(a,b,c)
+         {
+            let d=a+b+c;
+            return d;
+         }
+
+         function sub(a,b,c=2)
+         {
+            let d=a+b-c;  //default value of c will be taken as 2
+            return d;
+         }
+
+         let a=1;
+         let b=2;
+         let c=3;
+         let val=sum(a,b,c);
+         console.log(val);
+
+         let res=sub(a,b); //no argument of c passed
+         console.log(res);
+
+        </script>
+    </body>
+</html>
