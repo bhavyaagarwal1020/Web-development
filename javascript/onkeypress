@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script type="text/javascript">
+            function abc() {
+               alert("The key has been pressed");
+            }
+      </script> 
+   </head>
+   <body>
+      <input style="border: 1px solid black" type="text" onkeypress="abc()">
+   </body>
+</html>
