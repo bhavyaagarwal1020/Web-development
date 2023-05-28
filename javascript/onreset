@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<form onreset="abc()">
+  First name: <input id="i1" type="text"><br><br>
+  Last name: <input type="text"><br><br>
+  <input type="reset">
+</form>
+
+<script>
+function abc()
+ {
+   document.getElementById('i1').style.border="2px solid red";
+   alert("The form was reset");
+}
+</script>
+</body>
+</html>
+
+//on clicking on reset button , alert message will be displayed and on clicking on okay the border of first name changes.
