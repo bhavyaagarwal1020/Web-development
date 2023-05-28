@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+
+<p id="p1"></p>
+
+
+<script>
+var names = ["Rohit","Rahul","Virat"];
+document.getElementById("abc").innerHTML = names[0];
+
+var cars = ["Honda City", "Ford Ecosport", "BMW"];
+document.getElementById("p1").innerHTML = cars;
+
+</script>
+</body>
+</html>
+
