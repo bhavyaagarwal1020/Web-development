@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>MY form</title>
+      
+        <style>
+            body{
+                background-color: cornflowerblue;
+                padding: 10px 50px;
+            }
+
+            .bhform{
+                font-size: 20px;
+            }
+
+            .bhform input{ 
+                 /* input area */
+                 text-align: center;
+                width: 70%;
+                padding: 12px 20px;
+                border: 1px solid purple;
+                margin:12px;
+            }
+            
+
+            .button{
+               font-size:25px;
+               height:50px;
+               width:200px;
+               padding: 2px 2px;
+            }
+
+
+            #f
+            {
+                background-color: white;
+                width: 400px;
+                height:400px;
+                padding:20px 20px 20px 20px;
+                text-align: center;
+
+            }
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <form id="f" action="action.php" name="myform" onsubmit="return validate()" method="post">
+
+            <div class="bhForm" id="name">
+                <input type="text" placeholder="username" name="fname">
+            </div>
+
+            <div class="bhForm" id="email">
+               <input type="email"  placeholder="email"name="femail">
+            </div>
+
+            <div class="bhForm" id="phno">
+               <input type="phone"  placeholder="Contact Number" name="fno">
+            </div>
+
+            <div class="bhForm" id="pass">
+                <input type="password" placeholder="password" name="fpass">
+            </div>
+
+            <div class="bhForm" id="cpass">
+                 <input type="password" placeholder="  Confirm password" name="fcpass">
+            </div>
+
+            <input class="button" type="Submit" value="Submit Now">
+
+        </form>
+
+
+        
+        <script>
+
+           function validate()
+           {
+            /* document.form brings all the form from document */
+            /*here brining the form whose name is myform and the tag whose name is fname*/
+             var name= document.forms['myform']["fname"].value;
+             var pass=document.forms['myform']["fpass"].value;
+             var cpass=document.forms['myform']["fcpass"].value;
+             var ph=document.forms['myform']["fno"].value;
+             var email=document.forms['myform']["femail"].value;
+             if(name.length==0)
+             {
+                alert("Username cant be empty");
+             }
+
+             if(ph=="")
+             {
+                alert("phone number cant be empty");
+             }
+
+             if(email=="")
+             {
+                alert("Email cant be empty");
+             }
+
+             if(pass!=cpass)
+             {
+                alert("Both passwords do not match");
+                return false;
+             }
+             else{
+                return true;
+             }
+
+           }
+
+        </script>
+        
+    </body>
+</html> 
