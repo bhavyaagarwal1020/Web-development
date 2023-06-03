@@ -1,0 +1,4 @@
+1. Download Xampp
+2. Start Apache and MySql server.
+3. local disk C -> Xampp -> htdocs -> create a folder -> xyz.php 
+4. In brower type: localhost/foldername/xyz.php
