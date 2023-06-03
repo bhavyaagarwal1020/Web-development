@@ -9,5 +9,13 @@ $string = "Good girl";
 $ss = " indeed";
 echo "$name has a age of $age<br>";
 echo "$string<br>";
-echo "$ss";
+echo "$ss<br>";
+
+$x=10.09;
+var_dump($x); 
+// returns data type and value of variable.
+echo "<br>";
+
+$xx=(int)$x;
+echo "$x and $xx";
 ?>
