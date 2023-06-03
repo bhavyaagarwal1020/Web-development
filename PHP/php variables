@@ -1,0 +1,13 @@
+<?php
+echo "hello";
+
+//varibales start with $ and are case sensitive.
+
+$name = "Bhavya";
+$age = 22;
+$string = "Good girl";
+$ss = " indeed";
+echo "$name has a age of $age<br>";
+echo "$string<br>";
+echo "$ss";
+?>
