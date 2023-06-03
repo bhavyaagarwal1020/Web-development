@@ -1,0 +1,81 @@
+<?php
+
+$a = 45;
+$b = 8;
+// 1. Arithmetic Operators
+echo "For a + b, the result is ". ($a + $b) . "<br>";
+echo "For a - b, the result is ". ($a - $b) . "<br>";
+echo "For a * b, the result is ". ($a * $b) . "<br>";
+echo "For a / b, the result is ". ($a / $b) . "<br>";
+echo "For a % b, the result is ". ($a % $b) . "<br>";
+echo "For a ** b, the result is ". ($a ** $b) . "<br>";
+
+// 2. Assignment Operators
+ $x = $a;
+ echo "For x, the value is  $x<br>";
+
+ $a += 6;
+ echo "For a, the value is $a<br>";
+
+ $a -= 6;
+ echo "For a, the value is $a<br>";
+
+ $a *= 6;
+ echo "For a, the value is $a<br>";
+
+ $a /= 5;
+ echo "For a, the value is  $a <br>";
+
+ $a %= 5; 
+echo "For a, the value is  $a <br>";
+
+
+
+// 3. comparision operators
+$x=5;
+$y=10;
+
+echo "for x==y ,";
+echo var_dump($x==$y);
+echo "<br>";
+
+echo "for x<y ,";
+echo var_dump($x<$y);
+echo "<br>";
+
+echo "for x<=y ,";
+echo var_dump($x<=$y);
+echo "<br>";
+
+echo "for x>y ,";
+echo var_dump($x>$y);
+echo "<br>";
+
+echo "for x==y ,";
+echo var_dump($x>=$y);
+echo "<br>";
+
+echo "for x<>y ,"; // <> means not equal to
+echo var_dump($x<>$y);
+echo "<br>";
+
+echo "for x==y ,";
+echo var_dump($x==$y);
+echo "<br>";
+
+echo "for x<=>y ,";
+echo var_dump($x<=>$y); //spaceship operator 
+echo "<br>";
+
+//4. Logical Operators
+
+$m = true;
+$n = true;
+echo "For m and n, the result is "; 
+echo var_dump($m and $n);
+echo "<br>";
+
+echo "For m && n, the result is "; 
+echo var_dump($m && $n);
+echo "<br>";
+?>
