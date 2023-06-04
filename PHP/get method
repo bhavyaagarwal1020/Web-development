@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>my form</title>
+    </head>
+    <body>
+     
+        <form action="display.php" method="get" id="myform">
+            First Name: <input type="text" name="fname"></br>
+            Last Name: <input type="text" name="lname"></br>
+            <input type="submit" value="submit" name="save">
+
+            </form>
+            
+
+    </body>
+</html>
+//save file by form.php
+//start apache server in xampp
+//in browser type : localhost/htdocsFoldername/form.php
+
+
+
+//save by display.php
+<?php
+
+//echo "<pre>";
+print_r ($_GET);
+//echo "</pre>";
+
+$first_name = $_GET['fname'];
+$last_name = $_GET['lname'];
+
+echo $first_name;
+echo "<br>";
+echo $last_name;
+
+?>
