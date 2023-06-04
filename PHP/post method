@@ -1,0 +1,19 @@
+
+
+
+
+//save  by displaypost.php
+<?php
+
+echo "<pre>";
+print_r ($_POST);
+echo "</pre>";
+
+$first_name = $_POST['fname'];
+$last_name = $_POST['lname'];
+
+echo $first_name;
+echo "<br>";
+echo $last_name;
+
+?>
