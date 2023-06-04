@@ -1,4 +1,22 @@
+<html>
+    <head>
+        <title>my form</title>
+    </head>
+    <body>
+     
+        <form action="displaypost.php" method="post" id="myform">
+            First Name: <input type="text" name="fname"></br>
+            Last Name: <input type="text" name="lname"></br>
+            <input type="submit" value="submit" name="save">
 
+            </form>
+            
+
+    </body>
+</html>
+//save file by form1.php
+//start apache server in xampp
+//in browser type : localhost/htdocsFoldername/form1.php
 
 
 
